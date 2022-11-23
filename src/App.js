@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './Components/App.css';
+import NavBar from "./Components/NavBar";
+import WeatherPanel from './Components/WeatherPanel'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <div className='nube1'></div>
+      <div className='nube2'></div>
+      <div className='nube3'></div>
+      <div className='nube4'></div>
+      <div className='nube5'></div>
+      <div className='nube6'></div>
+      <div className='nube7'></div>
+      <div className='nube8'></div>
+      <div className='nube9'></div>
+      <div className='nube10'></div>
+      <WeatherPanel/>
     </div>
   );
 }

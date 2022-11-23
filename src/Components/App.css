@@ -1,0 +1,260 @@
+body{
+    background-color: #7FBCD2;
+}
+
+
+.nube1{
+    width: 200px;
+    height: 150px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento1 50s infinite;
+    background-image: url('./nubes/nubereal1.png');
+}
+
+
+@keyframes movimiento1{
+    from{margin-left: 100%;}
+
+    to{margin-left: -30%;}
+
+}
+
+.nube2{
+    width: 200px;
+    height: 150px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento2 30s infinite;
+    background-image: url('./nubes/nubereal2.png');
+    margin-top: 150px;
+}
+
+
+@keyframes movimiento2{
+    from{margin-left: -30%;}
+
+    to{margin-left: 100%;}
+}
+
+
+.nube3{
+    width: 250px;
+    height: 200px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento3 40s infinite;
+    background-image: url('./nubes/nubereal2.png');
+    margin-top: 75px;
+}
+
+
+@keyframes movimiento3{
+    from{margin-left: -30%;}
+
+    to{margin-left: 100%;}
+}
+
+.nube4{
+    width: 300px;
+    height: 250px;
+    background-size: 100% 100%;
+   overflow-x: hidden;
+    position: absolute;
+    animation: movimiento4 60s infinite;
+    background-image: url('./nubes/nubereal1.png');
+    margin-top: 220px;
+}
+
+
+@keyframes movimiento4{
+    from{margin-left:100%;}
+
+    to{margin-left: -30%;}
+}
+
+
+.nube5{
+    width: 300px;
+    height: 250px;
+    background-size: 100% 100%;
+   overflow-x: hidden;
+    position: absolute;
+    animation: movimiento5 50s infinite;
+    background-image: url('./nubes/nubereal1.png');
+    margin-top: 100px;
+}
+
+
+@keyframes movimiento5{
+    from{margin-left:-30%;}
+
+    to{margin-left: 100%;}
+}
+
+.nube6{
+    width: 300px;
+    height: 250px;
+    background-size: 100% 100%;
+   overflow-x: hidden;
+    position: absolute;
+    animation: movimiento6 52s infinite;
+    background-image: url('./nubes/nubereal2.png');
+    margin-top: 200px;
+}
+
+
+@keyframes movimiento6{
+    from{margin-left:100%;}
+
+    to{margin-left: -30%;}
+}
+
+.nube7{
+    
+    width: 40px;
+    height: 80px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento7 40s infinite;
+    background-image: url('./nubes/nubereal2.png');
+    margin-top: 300px;
+}
+
+
+@keyframes movimiento7{
+    from{margin-left:100%;}
+
+    to{margin-left: -30%;}
+}
+
+.nube8{
+    
+    width: 300px;
+    height: 200px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento7 20s infinite;
+    background-image: url('./nubes/nubereal1.png');
+    margin-top: 300px;
+}
+
+
+@keyframes movimiento8{
+    from{margin-left:-30%;}
+
+    to{margin-left: 100%;}
+}
+
+.nube9{
+    
+    width: 300px;
+    height: 200px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento9 30s infinite;
+    background-image: url('./nubes/nubereal2.png');
+    margin-top: 300px;
+}
+
+
+@keyframes movimiento9{
+    from{margin-left:-30%;}
+
+    to{margin-left: 100%;}
+}
+
+
+.nube10{
+    
+    width: 300px;
+    height: 200px;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    position: absolute;
+    animation: movimiento9 30s infinite;
+    background-image: url('./nubes/nubereal2.png');
+    margin-top: 220px;
+}
+
+
+@keyframes movimiento10{
+    from{margin-left:-30%;}
+
+    to{margin-left: 100%;}
+}
+
+.App{
+    text-align: center;
+    
+}
+
+.navbar{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFF38C;
+}
+
+.mx-auto{
+    color: #1f71bf;
+}
+
+
+.input-group > input{
+    
+    margin-left: 195px;
+    
+}
+
+.input-group > button{
+   
+    margin-right: 195px;
+}
+
+
+.card{
+    max-width: 70%;
+    background-color: #2192FF;
+    border-radius: 25px;
+}
+
+.card-title{
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.card-date{
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 60px;
+    
+}
+
+.card-temp{
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 260px;
+    font-size: 50px;
+}
+
+.card-desc{
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 320px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
